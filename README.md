@@ -2,7 +2,7 @@ This is repo with my misc experiments with Emscripten C/C++ to Javacript compile
 
 compilation:
 
-$ emcc -o sieve.js -ASM_JS=1 -O1 -Wall sieve.cpp
+$ emcc -o sieve.js -s ASM_JS=1 -O1 -Wall sieve.cpp
 
 Node execution:
 
