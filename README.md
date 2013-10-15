@@ -3,7 +3,9 @@ This is repo with my misc experiments with Emscripten C/C++ to Javacript compile
 compilation (samples):
 ```
 $ emcc -o sieve.js -s ASM_JS=1 -O1 -Wall sieve.cpp
-$ emcc -o classes.js -s ASM_JS=1 -O1 -Wall classes.cpp
+$ emcc -o classes.js -s ASM_JS=1 -O1 -Wall classes.cpp # C++
+...
+$ emcc -o tmp/csample.js -s ASM_JS=1 -O1 -Wall -v csample.c # C
 ```
 Node execution:
 ```
